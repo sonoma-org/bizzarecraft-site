@@ -7,29 +7,109 @@
   font-weight: normal;
 }
 
-a,
-.green {
+body {
+  background: linear-gradient(to bottom, #1a1a2e, #3a0ca3);
+  color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background: rgba(255, 255, 255, 0.02);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+.ip {
+  background: rgba(255, 198, 255, 0.02);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.navbar ul li {
+  margin: 0 15px;
+}
+.navbar ul li a {
+  color: white;
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+  font-size: 1.2em;
+  padding: 8px 12px;
+  transition: background 0.3s, border-radius 0.3s;
+}
+.navbar ul li a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+.container {
+  max-width: 600px;
+  margin: auto;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+h1 {
+  font-size: 2em;
+}
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.main-btn {
+  background-color: #894caf;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.footer {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+a {
+  color: #ffffff !important;
+  text-decoration: none
+}
+
+.info-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.buttons {
+  margin-top: 15px;
+}
+
+.secondary-btn {
+  background-color: #666;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
 }

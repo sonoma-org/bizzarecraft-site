@@ -3,4 +3,19 @@ import './assets/main.css'
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import { createMemoryHistory, createRouter } from 'vue-router'
+
+import Main from './components/Main.vue'
+import Play from './components/Play.vue'
+
+const routes = [
+  { path: '/', component: Main },
+  { path: '/play', component: Play },
+]
+
+const router = createRouter({
+  history: createMemoryHistory(),
+  routes,
+})
+
+createApp(App).use(router).mount('#app')
