@@ -1,0 +1,24 @@
+name: docker
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  docker-push:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build the Docker image
+      run: docker build -t docker.sonoma.su/bizarrecraft-site .
+    
+    - name: Login Sonoma Docker registry
+      run: docker login docker.sonoma.su --username ${{ secrets.DOCKER_LOGIN }} --password ${{ secrets.DOCKER_PASSWORD }}
+
+    - name: Push image
+      run: docker push docker.sonoma.su/bizarrecraft-site

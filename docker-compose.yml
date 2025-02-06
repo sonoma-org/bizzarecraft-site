@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    container_name: vue_app_container
+    ports:
+      - '8080:8080'
+    volumes:
+      - ./:/app
+    command: yarn serve
