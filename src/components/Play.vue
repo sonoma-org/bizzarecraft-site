@@ -6,9 +6,9 @@
         <br>
         <p>Для того, чтобы играть на нашем сервере вам нужно написать нам в сообществе Discord! Мы обязательно рассмотрим вашу заявку.</p>
         <p>Также вам необходимо установить данные моды:</p>
-        <a href="https://nextcloud.sonoma.su/s/Mjq5LQGe2GtNFXG">
+        <a href="https://modrinth.com/plugin/emotecraft">
         <button class="main-btn">Скачать EmoteCraft</button></a> <br> <br>
-        <a href="https://nextcloud.sonoma.su/s/TGezFJgyj4mz8xC">
+        <a href="https://modrinth.com/plugin/simple-voice-chat">
         <button class="main-btn">Скачать Simple Voice Chat</button></a>
         <p style="font-size: smaller; padding-top: 10px;">Для игры нужна версия 1.21.4</p>
     </div>
