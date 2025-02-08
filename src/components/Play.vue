@@ -8,8 +8,8 @@
         <p>Также вам необходимо установить данные моды:</p>
         <a href="https://modrinth.com/plugin/emotecraft">
         <button class="main-btn">Скачать EmoteCraft</button></a> <br> <br>
-        <a href="https://modrinth.com/plugin/simple-voice-chat">
-        <button class="main-btn">Скачать Simple Voice Chat</button></a>
+        <a href="https://modrinth.com/plugin/plasmo-voice ">
+        <button class="main-btn">Скачать Plasmo Voice</button></a>
         <p style="font-size: smaller; padding-top: 10px;">Для игры нужна версия 1.21.4</p>
     </div>
 </template>
