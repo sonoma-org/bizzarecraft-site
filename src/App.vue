@@ -15,7 +15,7 @@
               <li><RouterLink to="/play">Играть</RouterLink></li>
               <li><a href="https://map.bizarrecraft.ru">Карта</a></li>
               <li><a href="https://discord.gg/GqfzJPSQHk">Discord</a></li>
-              <li><a href="https://github.com/sonoma-org/bizzarecraft-site">GitHub</a></li>
+              <li><a href="https://bizarrecraft.mc-map.handtruth.com">GitHub</a></li>
           </ul>
     </nav>
     <main>
