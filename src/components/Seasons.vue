@@ -10,7 +10,7 @@
             <div class="season-card">
                 <img src="/public/season1.png" alt="BizarreCraft 1">
                 <h2>BizarreCraft 1</h2>
-                <p>1 января 2024 г. — 5 февраля 2025 г.</p>
+                <p>1 января 2025 г. — 5 февраля 2025 г.</p>
                 <p>Локальный сервер для друзей</p>
             </div>
         </div>
