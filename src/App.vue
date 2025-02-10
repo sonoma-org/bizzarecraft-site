@@ -2,18 +2,14 @@
 </script>
 
 <template>
-   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Приватный сервер BizarreCraft</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
   <body>
     <nav class="navbar">
           <ul>
               <li><RouterLink to="/">Главная</RouterLink></li>
-              <li><RouterLink to="/play">Играть</RouterLink></li>
               <li><RouterLink to="/map">Карта</RouterLink></li>
+              <li><RouterLink to="/seasons">Сезоны</RouterLink></li>
+              <img src="/public/bc2.png" width="50">
+              <li><RouterLink to="/rules">Правила</RouterLink></li>
               <li><a href="https://discord.gg/GqfzJPSQHk">Discord</a></li>
               <li><a href="https://github.com/sonoma-org/bizzarecraft-site">GitHub</a></li>
           </ul>

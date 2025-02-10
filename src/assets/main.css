@@ -66,6 +66,24 @@ p {
   margin-bottom: 20px;
 }
 
+.seasons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.season-card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+}
+.season-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.season-card h2 {
+  margin-top: 10px;
+}
+
 .main-btn {
   background-color: #894caf;
   color: rgb(255, 255, 255);
