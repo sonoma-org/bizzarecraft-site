@@ -66,6 +66,14 @@ p {
   margin-bottom: 20px;
 }
 
+.rule {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  list-style-type: none;
+}
+
 .seasons {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
