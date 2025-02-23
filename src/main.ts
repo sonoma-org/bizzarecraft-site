@@ -7,16 +7,12 @@ import { createMemoryHistory, createRouter } from 'vue-router'
 
 import Main from './components/Main.vue'
 import Play from './components/Play.vue'
-import Map from './components/Map.vue'
-import Seasons from './components/Seasons.vue'
-import Rules from './components/Rules.vue'
+import MC from './components/MC.vue'
 
 const routes = [
   { path: '/', component: Main },
   { path: '/play', component: Play },
-  { path: '/map', component: Map },
-  { path: '/seasons', component: Seasons },
-  { path: '/rules', component: Rules },
+  { path: '/mc', component: MC }
 ]
 
 const router = createRouter({

@@ -1,11 +1,38 @@
 <template>
-        <div class="container">
-      <img src="/public/bizarrecraft2.png" width="500">
-        <br><br>
-        <p>Приватный сервер с ламповым комьюнити. Это пространство для воплощения всех твоих идей и проектов! </p>
-        <p class="ip" style="font-size: medium;">IP: play.bizarrecraft.ru</p>
-        <RouterLink to="/play" class="main-btn">Запрыгнуть на сервер</RouterLink>
-        <p style="font-size: smaller; padding-top: 10px;">Для игры нужна версия 1.21.4</p>
-        <p style="font-size: large; padding: 30px;">Чтобы получить доступ к серверу напишите нам в Discord!</p>
-    </div>
+
+    <section class="main-title">
+      <h1>BizarreCraft</h1>
+      <p>Особенный Vanilla+ сервер, <br>который обязательно тебе понравится! </p>
+      <button @click="$router.push('mc')">Играть</button>
+    </section>
+
+    <section class="pricing">
+      <h2>Варианты проходок</h2>
+      <p>Все возможные доступные варианты проходок</p>
+      <div class="options">
+        <div class="card">
+          <h3>Staff</h3>
+          <p>Станьте нашим модератором</p>
+          <p>Мы активно набираем команду модераторов!</p>
+          <p>Нужен Vanilla</p>
+          <button onclick="location.href='https://discord.gg/sEqEEchsQW'">Написать нам</button>
+        </div>
+        <div class="card highlight">
+          <h3>Vanilla</h3>
+          <p>Free / Сезон</p>
+          <p>Доступ на Сервер</p>
+          <p>Действует 1 сезон</p>
+          <p>Бесплатная проходка на первый сезон!</p>
+          <button onclick="location.href='https://discord.gg/sEqEEchsQW'">Оставить заявку</button>
+        </div>
+        <div class="card">
+          <h3>Creative</h3>
+          <p>₽100+ / Сезон</p>
+          <p>Поддержите нас и получите</p>
+          <p>Доступ к креативному миру и его возможностям!</p>
+          <p>Нужен Vanilla</p>
+          <button onclick="toastr.error('В разработке')">Поддержать</button>
+        </div>
+      </div>
+    </section>
 </template>
