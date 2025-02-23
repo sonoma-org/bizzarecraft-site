@@ -39,6 +39,7 @@
         <a href="https://modrinth.com/mod/voicechat-soundboard">Voice Chat Soundboard</a> <br>
         <a href="https://modrinth.com/mod/cpmsvcc">CPM Simple Voice Chat compat</a> <br>
         <a href="https://modrinth.com/plugin/custom-player-models">Customizable Player Models</a> <br>
+        <a href="https://modrinth.com/mod/my_totem_doll">My Totem Doll</a> <br>
       </details>
 
     </section>
