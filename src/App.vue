@@ -32,15 +32,15 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
-  data() {
+  data(): { isLightTheme: boolean } {
     return {
       isLightTheme: false,
     };
   },
   methods: {
-    toggleTheme() {
+    toggleTheme(): void {
       this.isLightTheme = !this.isLightTheme;
       if (this.isLightTheme) {
         document.body.classList.add('light-theme');
